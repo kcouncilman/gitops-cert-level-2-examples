@@ -9,7 +9,7 @@ spec:
         generators:
           # git generator, 'child' #1
           - git:
-              repoURL: https://github.com/<your user>/gitops-cert-level-2-examples.git
+              repoURL: https://github.com/kcouncilman/gitops-cert-level-2-examples.git
               revision: HEAD
               directories:
                 - path: applicationset/example-apps/*
